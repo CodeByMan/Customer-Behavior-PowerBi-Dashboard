@@ -1,0 +1,30 @@
+# Maintainer: Muhammad Ali Nawaz | Power BI Developer / Data Analyst
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python and notebook runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Temporary Office and Power BI files (keep source workbooks and PBIX reports)
+~$*.xlsx
+~$*.xlsm
+~$*.pptx
+~$*.pbix
+*.pbix.autosave
+*.tmp
+*.bak
+*.log
